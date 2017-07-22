@@ -1,4 +1,7 @@
-# notes
+# upload webpage to github
+* step 1:
+* step 2:
+* step 3:
 
 # level1
 ## level2
