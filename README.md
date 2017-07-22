@@ -64,7 +64,7 @@ hint: to the same ref. You may want to first integrate the remote changes
 hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
-c:\charlottelch.github.io>git pull
+c:\charlottelch.github.io>git pull (because we changed index2.html to index.html by the web interface)
 remote: Counting objects: 5, done.
 remote: Compressing objects: 100% (5/5), done.
 remote: Total 5 (delta 2), reused 0 (delta 0), pack-reused 0
