@@ -1,0 +1,31 @@
+# HTML Formatting Elements
+* step:
+```
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Small text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+```
+* step 1:
+```
+example:
+The HTML <b> element defines bold text, without any extra importance.
+   Example
+The HTML <strong> element defines strong text, with added semantic "strong" importance.
+   Example
+<strong>This text is strong</strong>
+
+<b>This text is bold</b>
+<p><em>This text is emphasized.</em></p>
+<p><i>This text is italic.</i></p>
+<h2>HTML <small>Small</small> Formatting</h2>
+<h2>HTML <mark>Marked</mark> Formatting</h2>
+<p>My favorite color is <del>blue</del> red.</p>
+<p>My favorite <ins>color</ins> is red.</p>
+<p>This is <sub>subscripted</sub> text.</p>
