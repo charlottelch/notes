@@ -1,0 +1,10 @@
+* 1
+```
+var x = "16" + "Volvo";
+When adding a number and a string, JavaScript will treat the number as a string.
+```
+* 2
+```
+var y = 123e5;      // 12300000
+var z = 123e-5;     // 0.00123
+```
