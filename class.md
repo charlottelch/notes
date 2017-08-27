@@ -14,3 +14,47 @@
 对象是具有类类型的变量。类和对象是面向对象编程技术中的最基本的概念。
 它是一个定义包括在特定类型的对象中的方法和变量的软件模板。
 ```
+package com.example.helloworld;
+
+public class（class代表类） Gift {
+    private double price;
+    private String size;
+    private String color;
+
+
+
+    public Gift(double price,String size, String newColor) {
+        this.price = price;
+        this.size = size;
+        this.color = newColor;
+    }
+
+    public void print() {
+        System.out.println("print in gift");
+        System.out.println(this.price);
+        System.out.println(this.size);
+        System.out.println(this.color);
+
+    }
+    public double price(){
+        System.out.println("价格为 : " + price);
+       return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+（这些public都代表一个成员函数）
+
+}
+```
+System.out.println("gift1");
+        Gift gift1（对象） = new Gift(20,"10cm*10cm","blue");
+
+        gift1.print();
+        gift1.setPrice(15);
+        gift1.print();
+        
+```
+
+
