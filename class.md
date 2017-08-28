@@ -23,6 +23,7 @@ public class（class代表类） Gift {
     private double price;
     private String size;
     private String color;
+    (数据成员）
 
 
 
