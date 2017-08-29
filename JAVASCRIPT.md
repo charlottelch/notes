@@ -36,3 +36,6 @@ document.getElementById("image").src = "pic_mountain.jpg";
 </body>
 </html>
 ```
+
+# read json and show it on html
+https://www.w3schools.com/js/js_json_parse.asp
