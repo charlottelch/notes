@@ -51,7 +51,7 @@ Changes to be committed:
 ```
 * step 5:
 ```
-c:\charlottelch.github.io>git commit -m"webdesign/essay
+c:\charlottelch.github.io>git commit -m "webdesign/essay"
 [master 920134f] webdesign/essay
  7 files changed, 32 insertions(+)
  create mode 100644 webdesign/essay/images/a_01.jpg
