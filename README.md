@@ -1,3 +1,19 @@
+# clone repository
+* step1: 进入https://github.com/charlottelch/giftshop 点击 clone or download复制这个地址。
+* step2: 
+```
+C:\Users\ASUS>cd c:\
+
+c:\>git clone https://github.com/charlottelch/giftshop.git
+Cloning into 'giftshop'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+```
+
+
+
+
 # upload webpage to github
 Example: upload c:\   to https://github.com/charlottelch/charlottelch.github.io/tree/master/webdesign
 * step 1:ctrl c ,ctrl v from C:\Users\ASUS\Desktop\网页设计作业\第8章614李长虹\抒情散文网 to C:\charlottelch.github.io\webdesign\essay
