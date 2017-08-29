@@ -103,10 +103,77 @@ remote: Resolving deltas: 100% (4/4), completed with 2 local objects.
 To https://github.com/charlottelch/charlottelch.github.io
    4b7b307..e9ff014  master -> master
 ```
-# level1
-## level2
+# update files
+the difference bewteen upload and update is:
+* upload:c:\charlottelch.github.io>git commit -m "webdesign/essay"
+* update:c:\giftshop>git commit -a -m "read gifts.json from file"
 
-# level 1
-## level2
-## level 2
-### level 3
+```c:\giftshop>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   test7/.idea/workspace.xml
+        modified:   test7/out/production/test7/com/example/Test$IndexHandler.class
+        modified:   test7/out/production/test7/com/example/Test$MyHandler.class
+        modified:   test7/src/com/example/Test.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        test7/out/production/test7/com/example/gifts.json
+        test7/src/com/example/gifts.json
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+c:\giftshop>git add test7/out/production/test7/com/example/gifts.json test7/src/com/example/gifts.json
+
+c:\giftshop>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   test7/out/production/test7/com/example/gifts.json
+        new file:   test7/src/com/example/gifts.json
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   test7/.idea/workspace.xml
+        modified:   test7/out/production/test7/com/example/Test$IndexHandler.class
+        modified:   test7/out/production/test7/com/example/Test$MyHandler.class
+        modified:   test7/src/com/example/Test.java
+
+
+c:\giftshop>git commit -a -m "read gifts.json from file"
+warning: LF will be replaced by CRLF in test7/.idea/workspace.xml.
+The file will have its original line endings in your working directory.
+[master e61f83e] read gifts.json from file
+ 6 files changed, 47 insertions(+), 26 deletions(-)
+ rewrite test7/out/production/test7/com/example/Test$MyHandler.class (89%)
+ create mode 100644 test7/out/production/test7/com/example/gifts.json
+ create mode 100644 test7/src/com/example/gifts.json
+
+c:\giftshop>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+c:\giftshop>git push
+Counting objects: 17, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (17/17), 1.59 KiB | 0 bytes/s, done.
+Total 17 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas: 100% (7/7), completed with 6 local objects.
+To https://github.com/charlottelch/giftshop.git
+   f75f2b9..e61f83e  master -> master
+
+c:\giftshop>
+```
+
